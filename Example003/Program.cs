@@ -1,5 +1,5 @@
-﻿int NumberA = 31;
-int NumberB = 5;
-int result = NumberA+NumberB;
+﻿int NumberA = new Random().Next(1,10);
+int NumberB = new Random().Next(1,10);
+int result = NumberA+NumberB; 
 Console.WriteLine(result);
  
